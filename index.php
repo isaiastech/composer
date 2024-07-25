@@ -1,9 +1,10 @@
 <?php
 require "vendor/autoload.php";
 
-use app\class\Email;
+use app\class\Gerencia;
 
-$email = new Email;
-$email->send();
+$gerencia = new Gerencia();
+
+echo $gerencia->gerente();
 
 ?>

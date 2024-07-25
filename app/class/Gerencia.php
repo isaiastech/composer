@@ -4,7 +4,10 @@ namespace app\class;
 
 class Gerencia
 {
+    private string $ola = "Teste de função";
+    
     public function gerente(){
-        return "Olá mundo";
+       return $this->ola;
     }
+
 }
